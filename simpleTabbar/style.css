@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color-1: #e7bbbb;
+    --main-color-2: #8f94c1;
+    --main-color-3: #acdbc0;
+    --main-color-4: #9f8da9;
+    --main-color-5: #dbd3af;
+}
+body {
+    min-height: 100vh;
+    background-color: var(--main-color-1);
+    transition: background-color 0.5s;
+}
+.navigation {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0 ;
+}
+.navigation ul {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul li {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navigation ul li .icon .material-icons {
+    font-size: 2em;
+}
+.navigation ul li.active .icon {
+    transform: scale(1.3);
+}
+.navigation ul li:nth-child(1).active .icon {
+    color: var(--main-color-1);
+}
+.navigation ul li:nth-child(2).active .icon {
+    color: var(--main-color-2);
+}
+.navigation ul li:nth-child(3).active .icon {
+    color: var(--main-color-3);
+}
+.navigation ul li:nth-child(4).active .icon {
+    color: var(--main-color-4);
+}
+.navigation ul li:nth-child(5).active .icon {
+    color: var(--main-color-5);
+}
+
+
