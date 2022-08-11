@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.5" height="29.5" viewBox="0 0 29.5 29.5">
+  <g id="그룹_6" data-name="그룹 6" transform="translate(-26.25 -58.25)">
+    <g id="그룹_1" data-name="그룹 1">
+      <g id="타원_2" data-name="타원 2" transform="translate(34 66)" fill="none" stroke="#db9d4c" stroke-width="2">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6" fill="none"/>
+      </g>
+      <line id="선_1" data-name="선 1" y1="4" transform="translate(41 59)" fill="none" stroke="#db9d4c" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="선_2" data-name="선 2" y1="4" transform="translate(41 83)" fill="none" stroke="#db9d4c" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="선_3" data-name="선 3" y1="4" transform="translate(31 73) rotate(90)" fill="none" stroke="#db9d4c" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="선_4" data-name="선 4" y1="4" transform="translate(55 73) rotate(90)" fill="none" stroke="#db9d4c" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="선_5" data-name="선 5" y1="4" transform="translate(51.475 63.646) rotate(45)" fill="none" stroke="#db9d4c" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="선_6" data-name="선 6" y1="4" transform="translate(33.475 80.525) rotate(45)" fill="none" stroke="#db9d4c" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="선_7" data-name="선 7" y2="4" transform="translate(34 66.475) rotate(135)" fill="none" stroke="#db9d4c" stroke-linecap="round" stroke-width="1.5"/>
+      <line id="선_8" data-name="선 8" y2="4" transform="translate(51.475 83.5) rotate(135)" fill="none" stroke="#db9d4c" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

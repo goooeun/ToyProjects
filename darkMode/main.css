@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
+
+body.dark {
+  background-color: #333;
+}
+
+body.dark .container h3 {
+  color: #eee;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h3 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+  color: #333;
+}
+
+.container .toggleBox {
+  display: flex;
+}
+
+.container .toggleBox .mode {
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container .toggleBox .mode.light {
+  background-image: url("/img/light.svg");
+  background-size: 28px;
+}
+
+.container .toggleBox .mode.light.on {
+  background-image: url("/img/light_on.svg");
+}
+
+.container .toggleBox .mode.dark {
+  background-image: url("/img/dark.svg");
+  background-size: 24px;
+}
+
+.container .toggleBox .mode.dark.on {
+  background-image: url("/img/dark_on.svg");
+  background-size: 24px;
+}
+
+.container .toggle {
+  display: flex;
+  position: relative;
+  width: 128px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #db9d4c;
+}
+
+.container .toggle.on {
+  background-color: #666;
+}
+
+.container .toggle #modeSwitch {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.container .toggle .toggleButton {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggleButton::before {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  left: 7px;
+  bottom: 7px;
+  background-color: #eee;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#modeSwitch:checked + .toggleButton::before {
+  -webkit-transform: translateX(64px);
+  -ms-transform: translateX(64px);
+  transform: translateX(64px);
+}
